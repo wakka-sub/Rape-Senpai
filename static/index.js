@@ -3,7 +3,7 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
 (function(w) {
     function getJsonI18N() {
         return $.ajax({
-            url: `./static/i18n/zh.json`,
+            url: `./static/i18n/ja.json`,
             dataType: 'json',
             method: 'GET',
             async: false,
